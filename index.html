@@ -16,7 +16,7 @@
     </script>
 </head>
 
-<body>
+<body class="font-sans">
     <!-- Header Section -->
     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
         <div class="container">
@@ -37,37 +37,36 @@
                         <ul class="block lg:flex">
                             <li class="group">
                                 <a href="#hero"
-                                    class="text-base text-dark py-2 mx-8 flex hover:text-primary dark:text-white">Beranda</a>
+                                    class="text-base font-bold text-dark py-2 mx-8 flex hover:text-primary dark:text-white">Beranda</a>
                             </li>
                             <li class="group">
-                                <a href="#about" class="text-base text-dark py-2 mx-8 flex hover:text-primary dark:text-white">Tentang
+                                <a href="#about" class="text-base font-bold text-dark py-2 mx-8 flex hover:text-primary dark:text-white">Tentang
                                     Saya</a>
                             </li>
                             <li class="group">
-                                <a href="#portofolio"
-                                    class="text-base text-dark py-2 mx-8 flex hover:text-primary dark:text-white">Project</a>
+                                <a href="#project"
+                                    class="text-base font-bold text-dark py-2 mx-8 flex hover:text-primary dark:text-white">Project</a>
                             </li>
                             <li class="group">
-                                <a href="#client" class="text-base text-dark py-2 mx-8 flex hover:text-primary dark:text-white">Tech
+                                <a href="#tech-stack" class="text-base font-bold text-dark py-2 mx-8 flex hover:text-primary dark:text-white">Tech
                                     Stack</a>
                             </li>
                             <li class="group">
                                 <a href="#contact"
-                                    class="text-base text-dark py-2 mx-8 flex hover:text-primary dark:text-white">Contact</a>
+                                    class="text-base font-bold text-dark py-2 mx-8 flex hover:text-primary dark:text-white">Contact</a>
                             </li>
                             <li class="group flex items-center pl-8 mt-3 lg:mt-0">
                                 <div class="flex">
-                                    <span class="mr-2 text-small text-slate-200">Light</span>
+                                    <span class="mr-2 text-small font-bold text-dark dark:text-slate-600" id="textLight ">Light</span>
                                     <input type="checkbox" class="hidden" name="darkTheme" id="darkTheme">
                                     <label for="darkTheme">
                                         <div
                                             class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
                                             <div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-500 ease-in-out">
-
                                             </div>
                                         </div>
                                     </label>
-                                    <span class="ml-2 text-small text-slate-200">Dark</span>
+                                    <span class="ml-2 text-small font-bold text-slate-400 dark:text-white" id="textDark">Dark</span>
                                 </div>
                             </li>
                         </ul>
@@ -179,13 +178,13 @@
     </section>
     <!-- About Section End -->
 
-    <!-- Portofolio Start -->
-    <section id="portofolio" class="pt-36 pb-24 bg-slate-100 dark:bg-slate-800">
+    <!-- project Start -->
+    <section id="project" class="pt-36 pb-24 bg-slate-100 dark:bg-slate-800">
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-center text-sky-600 mb-2">
-                        Project
+                    <h4 class="font-bold text-lg text-center text-sky-600 mb-2">
+                        PROJECT
                     </h4>
                     <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">
                         Project Terbaru
@@ -201,7 +200,7 @@
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="asset/laptop.jpg" alt="" srcset="Laptop 1" width="w-full" />
                     </div>
-                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">OKPOS</h3>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white" id="okpos">OKPOS</h3>
                     <p class="font-medium text-base text-secondary">
                         Aplikasi ini merupakan sistem POS (Point Of Sale) yang
                         diperuntukan untuk penjual pakaian. Aplikasi ini dibuat dengan
@@ -214,7 +213,7 @@
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="asset/laptop.jpg" alt="" srcset="Laptop 1" width="w-full" />
                     </div>
-                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">OKSIMRS</h3>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white" id="oksimrs">OKSIMRS</h3>
                     <p class="font-medium text-base text-secondary">
                         Aplikasi ini merupakan sistem manajemen rumah sakit. Aplikasi ini
                         dibangun dengan menggunakan Code Igniter dan Ext JS
@@ -224,7 +223,7 @@
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="asset/laptop.jpg" alt="" srcset="Laptop 1" width="w-full" />
                     </div>
-                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white" id="oksimrs-dashboard">
                         OKSIMRS Dashboard
                     </h3>
                     <p class="font-medium text-base text-secondary">
@@ -238,7 +237,7 @@
                     <div class="rounded-md shadow-md overflow-hidden">
                         <img src="asset/laptop.jpg" alt="" srcset="Laptop 1" width="w-full" />
                     </div>
-                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white" id="programming-data-asset">
                         Programming Data Asset
                     </h3>
                     <p class="font-medium text-base text-secondary">
@@ -251,14 +250,14 @@
             </div>
         </div>
     </section>
-    <!-- Portofolio End -->
+    <!-- project End -->
 
-    <!-- Client Start -->
-    <section id="client" class="pt-36 pb-32 bg-slate-800 dark:bg-slate-300">
+    <!-- Tech Stack Start -->
+    <section id="tech-stack" class="pt-36 pb-32 bg-slate-800 dark:bg-slate-300">
         <div class="w-full px-4">
             <div class="mx-auto text-center mb-16">
-                <h4 class="font-semibold text-lg text-center text-sky-600 mb-2">
-                    Tech Stack
+                <h4 class="font-bold text-lg text-center text-sky-600 mb-2">
+                    TECH STACK
                 </h4>
                 <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-dark">
                     Bahasa Pemograman dan Framework
@@ -272,47 +271,59 @@
         <div class="w-full px-4">
             <div class="flex flex-wrap items-center justify-center">
                 <a href=""
-                    class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
-                    <img src="asset/logo-php.png" alt="PHP" srcset="" />
-                </a>
-                <a href=""
-                    class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
-                    <img src="asset/logo-laravel.png" alt="Laravel" srcset="" />
-                </a>
-                <a href=""
-                    class="max-w-[85px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
-                    <img src="asset/logo-javascript.png" alt="Javascript" srcset="" />
+                    class="max-w-[90px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                    <img src="asset/logo-html.png" alt="Javascript" srcset="" />
                 </a>
                 <a href=""
                     class="max-w-[70px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
                     <img src="asset/logo-css.png" alt="CSS" srcset="" />
                 </a>
                 <a href=""
+                    class="max-w-[85px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                    <img src="asset/logo-javascript.png" alt="Javascript" srcset="" />
+                </a>
+                <a href=""
+                    class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                    <img src="asset/logo-php.png" alt="PHP" srcset="" />
+                </a>
+            </div>
+        </div>
+        <div class="w-full px-4">
+            <div class="flex flex-wrap items-center justify-center">
+                <a href=""
                     class="max-w-[100px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
                     <img src="asset/logo-mysql.png" alt="Laravel" srcset="" />
+                </a>
+                <a href=""
+                    class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                    <img src="asset/logo-laravel.png" alt="Laravel" srcset="" />
                 </a>
                 <a href=""
                     class="max-w-[110px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
                     <img src="asset/logo-bootstrap.png" alt="Laravel" srcset="" />
                 </a>
+                <a href=""
+                    class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                    <img src="asset/logo-tailwind.png" alt="Laravel" srcset="" />
+                </a>
             </div>
         </div>
     </section>
-    <!-- Client End -->
+    <!-- Tech Stack End -->
 
     <!-- Contact Start -->
     <section id="contact" class="pt-36 pb-32 dark:bg-slate-800">
         <div class="container">
             <div class="w-ful px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-center text-sky-600 mb-2">
-                        Contact
+                    <h4 class="font-bold text-lg text-center text-sky-600 mb-2">
+                        CONTACT
                     </h4>
                     <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">
-                        Hubungi Kami
+                        Hubungi Saya
                     </h2>
                     <p class="font-medium text-base text-secondary md:text-lg">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quo.
+                        Silahkan kirimkan pesan melalui form dibawah
                     </p>
                 </div>
             </div>
@@ -346,33 +357,36 @@
     <!-- Contact End -->
 
     <!-- Footer Start -->
-    <footer class="bg-dark pt-24 pb-8">
+    <footer class="bg-dark pt-24 pb-3">
         <div class="container">
             <div class="flex flex-wrap">
-                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+                <div class="w-full px-4 mb-12 mx-auto text-slate-300 font-medium md:w-1/3">
                     <h2 class="font-bold text-4xl text-white mb-5">SinsICAZ</h2>
                     <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
                     <p>Yusronsronz7@gmail.com</p>
                     <p>Jalan Jalan Kemana Mana</p>
                     <p>Bandung</p>
                 </div>
-                <div class="w-full px-4 mb-12 md:w-1/3">
+                <!-- <div class="w-full px-4 mb-12 md:w-1/3">
                     <h3 class="font-semibold text-xl text-white mb-5">
-                        Kategori Tulisan
+                        Project
                     </h3>
                     <ul class="text-slate-300">
                         <li>
-                            <a href="" class="inliine-block text-base hover:text-primary mb-3">Programming</a>
+                            <a href="#okpos" class="inliine-block text-base hover:text-primary mb-3">OKPOS</a>
                         </li>
                         <li>
-                            <a href="" class="inliine-block text-base hover:text-primary mb-3">Teknologi</a>
+                            <a href="#oksimrs" class="inliine-block text-base hover:text-primary mb-3">OKSIMRS</a>
                         </li>
                         <li>
-                            <a href="" class="inliine-block text-base hover:text-primary mb-3">Gaya Hidup</a>
+                            <a href="#oksimrs-dashboard" class="inliine-block text-base hover:text-primary mb-3">OKSIMRS Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#programming-data-asset" class="inliine-block text-base hover:text-primary mb-3">Programming Data Asset</a>
                         </li>
                     </ul>
-                </div>
-                <div class="w-full px-4 mb-12 md:w-1/3">
+                </div> -->
+                <div class="w-full px-4 mb-12 mx-auto md:w-1/3">
                     <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
                     <ul class="text-slate-300">
                         <li>
@@ -382,13 +396,10 @@
                             <a href="#about" class="inliine-block text-base hover:text-primary mb-3">Tentang Saya</a>
                         </li>
                         <li>
-                            <a href="#portfolio" class="inliine-block text-base hover:text-primary mb-3">Portfolio</a>
+                            <a href="#project" class="inliine-block text-base hover:text-primary mb-3">Project</a>
                         </li>
                         <li>
-                            <a href="#client" class="inliine-block text-base hover:text-primary mb-3">Client</a>
-                        </li>
-                        <li>
-                            <a href="#blogs" class="inliine-block text-base hover:text-primary mb-3">Blog</a>
+                            <a href="#tech-stack" class="inliine-block text-base hover:text-primary mb-3">Tech Stack</a>
                         </li>
                         <li>
                             <a href="#contact" class="inliine-block text-base hover:text-primary mb-3">Contact</a>
@@ -443,7 +454,7 @@
 
     <!-- Button Back to Top Start -->
     <a href="#hero" id="btn-top"
-        class="fixed z-[999] bottom-4 p-4 right-4 justify-center items-center h-14 w-14 bg-primary rounded-full hover:animate-pulse hidden">
+        class="fixed z-[999] bottom-4 p-4 right-4 justify-center items-center h-14 w-14 bg-sky-600 rounded-full hover:animate-pulse hidden">
         <span class="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
     </a>
     <!-- Button Back to Top End -->
