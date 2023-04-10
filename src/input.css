@@ -6,6 +6,39 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.text-writter{
+    @apply border-r-4;
+    animation: 
+        cursor .4s step-end infinite alternate;
+}
+@keyframes cursor{
+    50% { border-color: transparent; }
+}
+
+@keyframes typing {
+  from {
+    width: 0ch;
+  }
+  to {
+    width: 24ch;
+  }
+}
+
+.animate-typing {
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-timing-function: steps(24);
+    animation-iteration-count: infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid black;
+}
+
+
+.will-change-transform {
+    will-change: transform;
+}
+
 .navbar-fixed{
     @apply fixed z-[999] bg-white bg-opacity-75 backdrop-blur-sm dark:bg-dark dark:bg-opacity-50;
     box-shadow: inset 0 -1px 0 0 rgba(0,0,0,0.2);

@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["index.html"],
+  content: ['index.html'],
   darkMode: 'class',
   theme: {
     container: {
@@ -15,8 +15,8 @@ module.exports = {
       },
       screens: {
         '2xl': '1320px',
-      }
+      },
     },
   },
   plugins: [],
-}
+};
